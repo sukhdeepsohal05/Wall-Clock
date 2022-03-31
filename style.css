@@ -115,3 +115,10 @@ body.light .toggle::after{
     content: 'Dark Mode';
     color: #091921;
 }
+
+@media screen and (max-width:768px){
+    .clock{
+        width: calc(10px + 60vw);
+        height: calc(10px + 60vw);
+    }
+}
